@@ -2,7 +2,7 @@ services:
   springboot-app:
     build: .
     ports:
-      - "8220:8080"
+      - "8202:8080"
     volumes:
       - ./logs:/app/logs
     environment:
